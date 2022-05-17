@@ -97,4 +97,4 @@
 
 ## Bash
 44.  * `sudo mkdir scripts`
-45.  * Находится в `Hello world.sh`
+45.  * Находится в `Hello world.sh` (Там две вариации вывода 'hello world')
