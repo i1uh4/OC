@@ -82,7 +82,9 @@ https://docs.google.com/document/d/1q8FmNPGTf_-FJ7Olo0Qw9HKRtk_yg73o/edit#
 28.  
   * `grep ".*\.so$" /lib`
   * `grep -r ".*\.so$" /lib` (-r отвечает за обход всех поддиректорий)
-29.  *
+29. 
+  * Установка через терминал `pip install --user kaggle`. Затем заходим на регистрируемся/авторизовываемся, заходим в раздел аккаунт и создаем новый токен API. После его скачивания в терминале создаем каталоги помещаем этот файл в созданный каталог `mkdir ~/.kaggle; mv kaggle.json ~/.kaggle`. Потом система предложит изменить права в целях безопасности `chmod 600 ~/.kaggle/kaggle.json`. Затем устанавливаем набор данных, в нашем случае это будет выглядеть так: `kaggle datasets download kaggle/hillary-clinton-emails`
+  * `unzip hillary-clinton-emails.zip` (Разархивируем скаченный архив)
 30.  *
 31.  * `ps aux | grep <username>` Это для общего случая, для меня было "ps aux | grep ocless" 
 
