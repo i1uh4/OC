@@ -1,4 +1,4 @@
-# OC
+# Laboratory work on OS
 
 ## System info
 ### CPU
