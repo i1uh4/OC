@@ -92,5 +92,9 @@
   * `find / -amin -180` За 3 часа
   * `find / -atime -3` За 3 дня
 41.  * `find / -size +10M -size -15M`
-42.  * `
-43.  * ` find $HOME -type f -name *.txt -exec rm {} \;`
+42.  * ` find ./ -name "*.txt" -exec cp "{}" /tmp \;`
+43.  * `sudo find /tmp -amin -5 -name *.txt -exec rm "{}" \;` Удалятся все файлы типа ".txt", которые были добавлены/изменены в течение 5 минут (В таком варианте лучше сразу прописывать удаление. а то что-то не то удалится) )
+
+## Bash
+44.  * `sudo mkdir scripts`
+45.  * Находится в `Hello world.sh`
