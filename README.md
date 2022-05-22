@@ -1,5 +1,4 @@
 # Laboratory work on OS
-https://docs.google.com/document/d/1q8FmNPGTf_-FJ7Olo0Qw9HKRtk_yg73o/edit#
 
 ## System info
 ### CPU
