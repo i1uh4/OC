@@ -22,7 +22,7 @@ https://docs.google.com/document/d/1q8FmNPGTf_-FJ7Olo0Qw9HKRtk_yg73o/edit#
 ### Disk Usage
 6. * `df -h`
 7. * `du -hs /home`
-8.
+8. 
   * `top`
   * `ps -eF`
   * `ps aux`
@@ -65,7 +65,7 @@ https://docs.google.com/document/d/1q8FmNPGTf_-FJ7Olo0Qw9HKRtk_yg73o/edit#
 22.  * `lscpu | grep -i zip` Ключ i делает grep делает команду не чувствительной к регистру
 23.  * `lscpu | grep -iw model`
 24.  * `lscpu | grep -iv model`
-25.  * ``
+25.  * `ls /proc | grep info`
 26.  * `ls /usr/bin | grep -in zip`
 27.  
   * `\	Экранирование специального символа (например\., соответствует буквенной точке)`
