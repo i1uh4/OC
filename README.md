@@ -54,8 +54,8 @@ https://docs.google.com/document/d/1q8FmNPGTf_-FJ7Olo0Qw9HKRtk_yg73o/edit#
 ## System Environment
 14. * `echo "export VARIABLE="5"" >> ~/.bashrc; source ~/.bashrc`
 15. * `export PATH="$HOME:$PATH"`
-16.
-17.
+16. * `В процессе`
+17. * `В процессе`
 18. * `echo "alias c="clear"" >> ~/.bashrc; source ~/.bashrc`
 19. Есть скриншот выполнения))
 
