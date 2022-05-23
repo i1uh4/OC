@@ -20,7 +20,7 @@
 
 ### Disk Usage
 6. * `df -h`
-7. * `du -hs /home`
+7. * `du -hs /home/your_username` (Для меня u -hs /home/ocless)
 8. 
   * `top`
   * `ps -eF`
@@ -33,15 +33,12 @@
 ### Network
 10.
     * `ip address | grep inet`
-    *  `nslookup localhost`
     *  `ip addr show | grep inet` 
-    *  `hostname -i`
     *  `sudo ifconfig | grep inet`
 
 11.
-  * `ip addr show | grep ether` 
+  * `ip addr show | grep ether` или можно использовать `ip a | grep ether`, или `ip addr | grep ether`
   * `sudo ifconfig | grep ether`
-  * `ip a | grep ether`
 12. Надеюсь, было достаточно вариантов в 10 и 11
 
 ### Processes info 
