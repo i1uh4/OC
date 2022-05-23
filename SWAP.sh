@@ -1,4 +1,8 @@
-sudo swapoff /swapfile
+
+sudo swapoff -a /swapfile
+sudo rm -f /swapfile
 sudo fallocate -l 4G /swapfile
+sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile
+
