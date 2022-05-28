@@ -12,11 +12,11 @@ then
 	if [[ -n $found ]];
 	then
 		echo "File exists "
-		file -b /${DIR}/${PTH}
+		file -b $found
 		echo -e "The path to the file or directory is /${DIR}/${PTH} \n"
 	else
 		echo -e "File doesn't exist \n"
 	fi
 else
-	echo "Directory doesn't exist"
+	echo -e "Directory doesn't exist \n"
 fi	
