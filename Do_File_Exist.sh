@@ -13,10 +13,10 @@ then
 	then
 		echo "File exists "
 		file -b /${DIR}/${PTH}
-		echo "The path to the file or directory is /${DIR}/${PTH}"
+		echo -e "The path to the file or directory is /${DIR}/${PTH} \n"
 	else
-		echo "File doesn't exist"
+		echo -e "File doesn't exist \n"
 	fi
 else
 	echo "Directory doesn't exist"
-fi
+fi	
