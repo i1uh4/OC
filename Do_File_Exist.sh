@@ -6,8 +6,12 @@ then
 	echo -e "Directory exists \n"
 	echo "Input the name of the file "
 	read PTH
-	if [ -e /${DIR}/${PTH} ];
+	
+	found=$( find . -depth -name $PTH )
+	
+	if [[ -n $found ]];
 	then
+		echo "File exists "
 		file -b /${DIR}/${PTH}
 		echo "The path to the file or directory is /${DIR}/${PTH}"
 	else
